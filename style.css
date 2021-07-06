@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+h1 {
+  font-size: 46px;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(61, 60, 60);
+}
+
+span {
+  color: rgb(0, 168, 70);
+  font-weight: bolder;
+}
+
+.landing {
+  width: 100%;
+  display: flex;
+  padding-top: 15vh;
+  height: 80vh;
+}
+
+.information_container {
+  width: 50%;
+  text-align: left;
+  padding: 2.5vh 8vh 0 15vh;
+}
+
+.link {
+  margin-top: 10vh;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(60, 190, 103, 0.788),
+    rgb(9, 163, 68)
+  );
+  padding: 1.5vh 5vh;
+  border-radius: 4vh;
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 0.2rem 1rem 0 rgb(160, 160, 160);
+}
+
+.about_link{
+   text-decoration: none;
+  background-image: linear-gradient(
+    to right,
+    rgba(41, 194, 233, 0.788),
+    rgb(8, 150, 194)
+  );
+  padding: 1.5vh 4vh;
+  border-radius: 4vh;
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 0.2rem 1rem 0 rgb(160, 160, 160);
+}
+
+.img_container {
+  width: 50%;
+}
+
+.img_container img {
+  height: 80vh;
+  padding-left: 15%;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  background-image: url(./Images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.about_img {
+  width: 50%;
+  padding: 2.5vh 0 0 10vh;
+}
+
+.about_img img {
+  height: 55vh;
+  padding-top: 10vh;
+}
+
+.recipe_container {
+  width: 100%;
+  margin-top: 12vh;
+  border-radius: 2.6vh;
+}
+
+.content_heading {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  padding: 2.5vh;
+  width: 20%;
+  box-shadow: 0 0 5vh 0 rgb(151, 151, 151);
+  border-radius: 3vh;
+  margin: 5vh;
+}
+
+.card img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 2.6vh;
+}
+
+.special_card {
+  display: flex;
+  padding: 4vh;
+  width: 75%;
+  box-shadow: 0 0 5vh 0 rgb(151, 151, 151);
+  border-radius: 3vh;
+  margin: 5vh;
+}
+
+.special_card img {
+  padding-right: 4vh;
+  width: 80vh;
+  height: 60vh;
+  border-radius: 2.6vh;
+}
+
+.card_info {
+  padding-right: 10vh;
+}
+
+.blog_card {
+  padding: 4vh;
+  width: 75%;
+  box-shadow: 0 0 5vh 0 rgb(151, 151, 151);
+  border-radius: 3vh;
+  margin: 5vh;
+}
+
+.blog_card_content{
+    display: flex;
+    padding: 1.5vh;
+}
+
+.first_image {
+  margin:auto;
+  padding-right: 4vh;
+  width: 100%;
+  height: 40vh;
+}
+
+.second_image{
+  width: 40vh;
+  height: 20vh;
+  padding: 4vh;
+}
+
+.social_status {
+  padding: 2.5vh 0;
+  width: 80%;
+  display: flex;
+   margin: 8vh auto;
+  box-shadow: 0 0 5vh 0 rgb(151, 151, 151);
+  border-radius: 3vh;
+}
+
+.social_handle {
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(2, 1, 17);
+  color: white;
+  padding: 2vh 0;
+  font-weight: 700;
+}
