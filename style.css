@@ -159,17 +159,11 @@ h2 {
     padding: 1.5vh;
 }
 
-.first_image {
+.blog_image {
   margin:auto;
   padding-right: 4vh;
   width: 100%;
   height: 40vh;
-}
-
-.second_image{
-  width: 40vh;
-  height: 20vh;
-  padding: 4vh;
 }
 
 .social_status {
